@@ -14,3 +14,9 @@ The dashboard is **responsive**, ensuring it provides an optimal user experience
 ![Ekran görüntüsü 2025-01-15 150841](https://github.com/user-attachments/assets/cd92bec7-871a-413a-8e23-d17acab05460)
 ![Ekran görüntüsü 2025-01-15 150859](https://github.com/user-attachments/assets/f1554993-4538-4275-9346-a08272217a04)
 ![Ekran görüntüsü 2025-01-15 150913](https://github.com/user-attachments/assets/9127b3ba-7cca-4411-bc14-afd4471abd6a)
+
+Start the project server:
+```bash
+cd admin
+npm run dev
+```
