@@ -1,7 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import OverwiewPage from "./pages/OverwiewPage";
 import ProductsPage from "./pages/ProductsPage";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/common/Sidebar";
+import UsersPage from "./pages/UsersPage";
+import SalesPage from "./pages/SalesPage";
+import './index.css';
+import OrdersPage from "./pages/OrdersPage";
 
 function App() {
   return (
@@ -13,10 +17,13 @@ function App() {
       </div>
 
       <Sidebar />
-      
+
       <Routes>
         <Route path="/" element={<OverwiewPage />} />
         <Route path="/products" element={<ProductsPage />} />
+        <Route path="/users" element={<UsersPage />} />
+        <Route path="/sales" element={<SalesPage />} />
+        <Route path="/orders" element={<OrdersPage />} />
       </Routes>
     </div>
   );
